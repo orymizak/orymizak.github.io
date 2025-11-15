@@ -103,3 +103,32 @@ footer {
     border-radius: 12px;
   }
 }
+
+/* Barra superior */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.topbar .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.lang-btn {
+  background: #333;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.lang-btn:hover {
+  background: #444;
+}
