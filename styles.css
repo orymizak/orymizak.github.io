@@ -132,3 +132,23 @@ footer {
 .lang-btn:hover {
   background: #444;
 }
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skill-card {
+  background: #1a1a1a;
+  padding: 10px 16px;
+  border-radius: 3px; /* <-- máximo 3px */
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  background: #222;
+}
+
