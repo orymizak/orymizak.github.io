@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #0f0f0f;
+  color: #f2f2f2;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #222;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-pill {
+  background: #333;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  opacity: 0.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  header {
+    padding: 40px 15px;
+  }
+  .section {
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+  .card {
+    padding: 18px;
+  }
+  .skills {
+    justify-content: center;
+  }
+  .skill-pill {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 0.95rem;
+  }
+  .card {
+    border-radius: 12px;
+  }
+}
